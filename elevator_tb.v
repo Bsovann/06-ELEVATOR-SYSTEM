@@ -1,6 +1,6 @@
 `timescale 1ns / 1ns
 
-module tb_elevator ();
+module sequential_tb_elevator ();
   reg  clk;
   reg  rst;
   reg  floor_button1;
@@ -14,7 +14,7 @@ module tb_elevator ();
   wire door_open;
 
   // Instantiate the elevator module
-  elevator elevator_instance (
+  sequential_elevator elevator_instance (
       .clk(clk),
       .rst(rst),
       .floor_button1(floor_button1),

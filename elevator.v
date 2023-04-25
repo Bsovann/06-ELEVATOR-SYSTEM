@@ -1,4 +1,4 @@
-module elevator (
+module sequential_elevator (
     input  clk,
     rst,
     floor_button1,
