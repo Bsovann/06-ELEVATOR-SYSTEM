@@ -30,8 +30,8 @@ module sequential_elevator (
   reg [1:0] next_floor;
   reg [2:0] floor_requests;
   reg [1:0] direction;
-  reg [3:0] wait_counter;  // Increase bit width
-  reg [3:0] door_counter;  // Increase bit width
+  reg [3:0] wait_counter;  
+  reg [3:0] door_counter;  
   reg door_open;
 
   // Output assignments
